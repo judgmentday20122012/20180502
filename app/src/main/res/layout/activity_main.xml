@@ -2,46 +2,56 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:background="#000000">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/title" />
+        android:text="@string/title"
+        android:textColor="#fff"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/lend" />
+        android:text="@string/lend"
+        android:textColor="#fff"/>
     <EditText
         android:id="@+id/input_lend"
+        android:inputType="number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:numeric="integer" />
+        android:background="#fff"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/rate" />
+        android:text="@string/rate"
+        android:textColor="#fff"/>
     <EditText
         android:id="@+id/input_rate"
+        android:inputType="numberDecimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:numeric="decimal" />
+        android:background="#fff"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/number" />
+        android:text="@string/number"
+        android:textColor="#fff"/>
     <EditText
         android:id="@+id/input_number"
+        android:inputType="number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:numeric="integer" />
+        android:background="#fff"/>
     <Button
         android:id="@+id/submit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn" />
+        android:text="@string/btn"
+        />
     <TextView
         android:id="@+id/amount"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="" />
+        android:text=""
+        android:textColor="#fff"/>
 </LinearLayout>
